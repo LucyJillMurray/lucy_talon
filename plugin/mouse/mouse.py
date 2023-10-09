@@ -101,11 +101,6 @@ class UserActions:
     def noise_trigger_pop():
         ctrl.mouse_click(button=0, hold=16000)
 
-        # Allow pop to stop scroll
-        if settings.get("user.mouse_enable_pop_stops_scroll"):
-            if actions.user.mouse_scroll_stop():
-                dont_click = True
-
         if dont_click:
             return
 
