@@ -99,12 +99,7 @@ class Actions:
 @ctx.action_class("user")
 class UserActions:
     def noise_trigger_pop():
-        dont_click = False
-
-        # Allow pop to stop drag
-        if settings.get("user.mouse_enable_pop_stops_drag"):
-            if actions.user.mouse_drag_end():
-                dont_click = True
+        ctrl.mouse_click(button=0, hold=16000)
 
         # Allow pop to stop scroll
         if settings.get("user.mouse_enable_pop_stops_scroll"):
