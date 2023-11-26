@@ -1,8 +1,5 @@
 parrot(c_click):
-	core.repeat_command(1)
-
+	print("c_click")
 
 parrot(q_click):
-	mouse_click(1)
-    # close the mouse grid if open
-    user.grid_close()
+	print("q_click")

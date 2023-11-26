@@ -3,10 +3,10 @@
 		"sounds": ["c_click"],
 		"threshold": {
 			">power": 20,
-			">probability": 0.995
+			">probability": 0.95
 		},
 		"throttle": {
-			"c_click": 0.12,
+			"cluck": 0.12,
 			"pop": 0.2
 		}
 	},
@@ -14,10 +14,10 @@
 		"sounds": ["q_click"],
 		"threshold": {
 			">power": 20,
-			">probability": 0.9991
+			">probability": 0.95
 		},
 		"throttle": {
-			"q_click": 0.12
+			"tut": 0.12
 		}
     }
 }
