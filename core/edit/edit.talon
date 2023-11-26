@@ -21,8 +21,8 @@ go right: edit.right()
 go up: edit.up()
 go down: edit.down()
 
-go line start | head: edit.line_start()
-go line end | tail: edit.line_end()
+go line start: edit.line_start()
+go line end: edit.line_end()
 
 go way left:
     edit.line_start()
@@ -105,6 +105,7 @@ clear way down:
 
 # Copy
 copy that: edit.copy()
+cap dot: edit.copy() 
 copy all: user.copy_all()
 copy line: user.copy_line()
 copy line start: user.copy_line_start()
@@ -151,8 +152,11 @@ cut word right: user.cut_word_right()
 #     edit.select_all()
 #     edit.cut()
 
-# Paste
+# Paste that 
 (pace | paste) that: edit.paste()
+pa sit: edit.paste()
+pa star: edit.paste()
+dot us: edit.paste()
 (pace | paste) enter:
     edit.paste()
     key(enter)
