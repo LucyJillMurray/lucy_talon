@@ -21,6 +21,11 @@ scroll down: edit.page_down()
 # go word left, go 2 words right
 go <user.navigation_step>+: user.perform_navigation_steps(navigation_step_list)
 
+go left: edit.left()
+go right: edit.right()
+go up: edit.up()
+go down: edit.down()
+
 go line start: edit.line_start()
 go line end: edit.line_end()
 
@@ -68,6 +73,20 @@ copy word right: user.copy_word_right()
 
 # Cut
 cut that: edit.cut()
+
+#to do: do we want these variants
+# cut left:
+#      edit.select_all()
+#      edit.cut()
+# cut right:
+#      edit.select_all()
+#      edit.cut()
+# cut up:
+#      edit.select_all()
+#     edit.cut()
+# cut down:
+#     edit.select_all()
+#     edit.cut()
 
 # Paste that 
 (pace | paste) that: edit.paste()
