@@ -14,7 +14,6 @@ December,december
 =,equal
 =,equals
 @,at sign
- ,space
 Console,consol
 Console,console
 Console.WriteLine,Console dot WriteLine
@@ -33,31 +32,25 @@ WriteLine,right line
 
 actor,acta
 add,ad
-alter,altar
-ampath,empath
+alright,all right
 an,anne 
 answer,ansa
 answer,on sir
 answers,on sirs
-auths,oaths
-auth,oath
 bool,ball
 bool,bull
 break,brake
 check,chick
 checks,chicks
-call,coal
 commit;,comet
 commit;,commit
 cursor,curser
 datacheck,data check
 dat,that files
 dat,that file
-delete,to Lead
 desc,descending
 diff,tiff
 dir,dear
-done,den
 doc,dock
 Ehlers Danlos syndrome,Ellis dan low syndrome
 Ehlers Danlos syndrome,eller dana syndrome
@@ -65,9 +58,6 @@ echo,ecco
 end if,and if
 end if;,endif
 error,era
-errors,eris
-errors,eros
-fix job,fixed job
 for,four
 foreach,for each
 go right,carrot
@@ -77,14 +67,11 @@ grade,grave
 graph,groff
 graphs,grafts
 hey,hay
-head,hid
-id,ide
 input,in push
 input,in put
 insert,in search
 in force,enforce
 int,inch
-into,ain't you
 into,in cu
 into,in to
 jira,gera
@@ -93,12 +80,10 @@ jira,gyre
 jira,gyro
 jira,jura
 last,lost
-lapse,laps
 list,lest
 list,lust
 live,love
 loop,loup
-loop,lupe
 
 min,men
 more ,more
@@ -116,55 +101,37 @@ omipay,on me pay
 omipay,on my pay
 omipay,ami pe
 omas,amass
-omas,amas 
 omas,a mess
 omas,or mess
-omipay,amy pay
 program,programme
-prodtype,prototype
-pay,pe
-perl,pearl
 res,rez
 res,ras
-res,riz
 ref,riff
-root,route
 rows,rose
 RUNCON,run con
 RUNCON,ran con
 salary,celery
-saver,savor
 six,sex
 since,sense
-soc,sock
+soc,socktail ,tale
 talon,tallon
 testing,tasting
 to,too
-to,two
 trans,trance
 transmed,transmit
 transmed,transmitted 
 trunc,trunk 
-unix,eunuch
-username,use your name
 uat,user testing
 uat,use your testing
-uat,use or testing
-uat,use our testing
 userstamp,user stamp
-yoghurt,yoga
 will do,we'll do
 will do,well do
-will do,wilde
-would,wood
 wooltru,wall true
 wooltru,wool tree
 wooltru,wool true
 wooltru,will true
 wooltru,well true
 
-Theo,thio
-Nish,nesh
 Murray,marry
 Murray,murray
 Murray,mary
@@ -183,19 +150,9 @@ Bob,bob
 Ashaan,chan
 Ashaan,shan
 Sipha,sup
-Sipha,sip
 Jamaine,Jermaine
 Sean,Shawn
 Ron,ron
-Maneshree,monastery
-Tanne,tanna
-Tanne,tana
-Tanne,tanner
-Anelisa,ann alisa
-Anelisa,an elisa
-Anelisa,anna lisa
-Hellen,helen
-Lorraine,loraine
-Lorraine,lorraine
+
 
 
