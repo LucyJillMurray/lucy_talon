@@ -1,0 +1,23 @@
+{
+	"c_click": {
+		"sounds": ["c_click"],
+		"threshold": {
+			">power": 20,
+			">probability": 0.95
+		},
+		"throttle": {
+			"cluck": 0.12,
+			"pop": 0.2
+		}
+	},
+	"q_click": {
+		"sounds": ["q_click"],
+		"threshold": {
+			">power": 20,
+			">probability": 0.95
+		},
+		"throttle": {
+			"tut": 0.12
+		}
+    }
+}
