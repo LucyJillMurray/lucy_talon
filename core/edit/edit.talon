@@ -21,8 +21,8 @@ scroll down: edit.page_down()
 # go word left, go 2 words right
 go <user.navigation_step>+: user.perform_navigation_steps(navigation_step_list)
 
-go line start | head: edit.line_start()
-go line end | tail: edit.line_end()
+go line start: edit.line_start()
+go line end: edit.line_end()
 
 go way left:
     edit.line_start()
@@ -43,12 +43,37 @@ indent [more]: edit.indent_more()
 
 # Copy
 copy that: edit.copy()
+cap dot: edit.copy() 
+copy all: user.copy_all()
+copy line: user.copy_line()
+copy line start: user.copy_line_start()
+copy line end: user.copy_line_end()
+copy word: user.copy_word()
+copy word left: user.copy_word_left()
+copy word right: user.copy_word_right()
+
+#to do: do we want these variants, seem to conflict
+# copy left:
+#      edit.extend_left()
+#      edit.copy()
+# copy right:
+#     edit.extend_right()
+#     edit.copy()
+# copy up:
+#     edit.extend_up()
+#     edit.copy()
+# copy down:
+#     edit.extend_down()
+#     edit.copy()
 
 # Cut
 cut that: edit.cut()
 
-# Paste
+# Paste that 
 (pace | paste) that: edit.paste()
+pa sit: edit.paste()
+pa star: edit.paste()
+dot us: edit.paste()
 (pace | paste) enter:
     edit.paste()
     key(enter)
