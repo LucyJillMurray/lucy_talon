@@ -11,26 +11,11 @@ Within this folder:
 `\parrot_py\data\models` holds the trained models
 `\parrot_py\.venv` holds the Python virtual environment with all needed dependencies.
 
-## Adding sound data to the model
-
-To add sound data to the model, activate the Python virtual environment and then run Parrot settings:
-```
-cd plugin/parrot/parrot_py
-source .venv/Scripts/activate
-py settings.py
-```
-
 ## Training the model
 
-To train the model, follow the steps above: ie:
+To train a model, activate the Python virtual environment and then run Parrot settings:
 ```
 cd plugin/parrot/parrot_py
 source .venv/Scripts/activate
 py settings.py
 ```
-Select [L] for learning then navigate the options:
-- Y to current audio settings
-- Updated model name with current date
-- A for Neural net required by talon
-- 5 nets
-- add y to the end of each sound to indicate you want to train it
