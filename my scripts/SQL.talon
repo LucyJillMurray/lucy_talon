@@ -26,10 +26,10 @@ check table privileges:"SELECT * FROM ALL_tab_privs WHERE table_name IN (''); \n
 select from court claims:"select * from ops$shared.caud_claims;"
 CD ref cards:"cg_ref_codes"
 at live:"@sad"
-SQL shared:"OPS$SHARED."
+SQL shared:"shared."
 audit table:"aud.aud_'
 audits table:"aud.aud_'
-select from all tab columns:"SELECT * FROM all_tab_columns where column_name ='' AND owner LIKE'%SHARED' ;"
+select from all tab columns:"SELECT * FROM all_tab_columns where column_name ='' ;"
 
 short January:'JAN'
 short February:'FEB'
