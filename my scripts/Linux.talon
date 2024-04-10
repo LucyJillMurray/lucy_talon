@@ -19,7 +19,7 @@ that file:'dat'
 prop login:"/usr/bin/lftp sftp://"
 move dots here:"/medaid/test/linux/tmp"
 that into ta shoot:"Copy to /soc/shared/dat/"
-show me my files:"ll -rt | grep lmurray"
+show me my files:"ll -rt | grep lumurray"
 se mud:"chmod 777 "
 se mod:"chmod 777 "
 
@@ -55,7 +55,7 @@ test prop:"$PROP"
 live journal:'$JJNL'
 live prop:"$LPROP"
 live scripts:"$LSCT" 
-live script:"$LSCT" 
+live script:"$LSCT"
 hold temp:"$HTMP"
 test forms:"$FMB"
 lifeforms:"$LFMB"
@@ -65,6 +65,7 @@ search for broken job:"cd $JJNL\nll -rt *"
 run production fix:"runsql / $DAT/production_fixes.sql "
 run Friday script:"runsql / $DAT/Friday_production_script.sql"
 run Friday production:"runsql / $DAT/Friday_production_script.sql"
+run Friday production script:"runsql / $DAT/Friday_production_script.sql"
 insert contract:"runsql / insert_contract.sql "
 
 datacheck shared:'cd /soc/shared/res \nll -rt EML001.lst* \nll -rt CTC004.lst* \n'
@@ -77,4 +78,5 @@ tail minus if:"tail -f "
 tale:'tail '
 a impi:"NMP"
 salim:"CLM"
-barca:'BRK'
+barca:'BRK
+and include:"| grep -iv 
