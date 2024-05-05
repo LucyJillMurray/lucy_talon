@@ -33,13 +33,14 @@ WriteLine,right line
 
 actor,acta
 add,ad
-alright,all right
 alter,altar
 ampath,empath
 an,anne 
 answer,ansa
 answer,on sir
 answers,on sirs
+auths,oaths
+auth,oath
 bool,ball
 bool,bull
 break,brake
@@ -64,6 +65,8 @@ echo,ecco
 end if,and if
 end if;,endif
 error,era
+errors,eris
+errors,eros
 fix job,fixed job
 for,four
 foreach,for each
@@ -116,9 +119,11 @@ omas,amass
 omas,amas 
 omas,a mess
 omas,or mess
+omipay,amy pay
 program,programme
 prodtype,prototype
 pay,pe
+perl,pearl
 res,rez
 res,ras
 res,riz
@@ -140,6 +145,7 @@ trans,trance
 transmed,transmit
 transmed,transmitted 
 trunc,trunk 
+unix,eunuch
 username,use your name
 uat,user testing
 uat,use your testing
@@ -185,6 +191,11 @@ Maneshree,monastery
 Tanne,tanna
 Tanne,tana
 Tanne,tanner
-
+Anelisa,ann alisa
+Anelisa,an elisa
+Anelisa,anna lisa
+Hellen,helen
+Lorraine,loraine
+Lorraine,lorraine
 
 
