@@ -42,12 +42,15 @@ answer,on sir
 answers,on sirs
 auths,oaths
 auth,oath
+birth,berth
 bool,ball
 bool,bull
 break,brake
+builder,boulder
 check,chick
 checks,chicks
 call,coal
+con,cotton
 commit;,comet
 commit;,commit
 cursor,curser
@@ -55,14 +58,17 @@ datacheck,data check
 dat,that files
 dat,that file
 delete,to Lead
+delete,TO Lead
 desc,descending
 diff,tiff
 dir,dear
 done,den
+done,don
 doc,dock
 Ehlers Danlos syndrome,Ellis dan low syndrome
 Ehlers Danlos syndrome,eller dana syndrome
 echo,ecco
+end,ain't
 end if,and if
 end if;,endif
 error,era
@@ -71,6 +77,7 @@ errors,eros
 fix job,fixed job
 for,four
 foreach,for each
+gen,jin
 go right,carrot
 go right,go rat
 grade,`
@@ -88,19 +95,20 @@ int,inch
 into,ain't you
 into,in cu
 into,in to
+initialise,initialize
 jira,gera
 jira,juror
 jira,gyre 
 jira,gyro
 jira,jura
+key,ki
 last,lost
 lapse,laps
 list,lest
 list,lust
-live,love
 loop,loup
 loop,lupe
-
+Max,max
 min,men
 more ,more
 moto,motto
@@ -116,15 +124,18 @@ omipay,ami pay
 omipay,on me pay
 omipay,on my pay
 omipay,ami pe
+omipay,army pay
 omas,amass
 omas,amas 
 omas,a mess
 omas,or mess
 omipay,amy pay
+organise,organize
 program,programme
 prodtype,prototype
 pay,pe
 perl,pearl
+prod call,protocol
 res,rez
 res,ras
 res,riz
@@ -153,6 +164,7 @@ uat,use your testing
 uat,use or testing
 uat,use our testing
 userstamp,user stamp
+value,val you
 yoghurt,yoga
 you I,UI
 will do,we'll do
@@ -173,8 +185,9 @@ Murray,mary
 Judith,judas
 Lucy,lucy 
 Bruce,bruce
-Kovania, cavani
-Shavani, chavan
+Kovania,cavani
+Shivani,chavan
+Shivani,sherwani
 Veena,vina
 Kiaan,kon
 Alieya,elia

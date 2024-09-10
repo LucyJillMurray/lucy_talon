@@ -3,7 +3,7 @@
 		"sounds": ["c_click"],
 		"threshold": {
 			">power": 20,
-			">probability": 0.995
+			">probability": 0.998
 		},
 		"throttle": {
 			"c_click": 0.12,

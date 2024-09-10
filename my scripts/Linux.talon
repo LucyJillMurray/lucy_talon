@@ -36,7 +36,7 @@ short temp:"tmp"
 short text: "txt"
 short trigger:"trg"
 
-short admin:"adm"
+short admin:"adm "
 short will drew:'woo '
 short wooltru:'woo '
 short configuration:"conf"
@@ -59,14 +59,22 @@ live script:"$LSCT"
 hold temp:"$HTMP"
 test forms:"$FMB"
 lifeforms:"$LFMB"
+test config:"$CONF"
+test con:"$CONF"
+short you sir testing:"uat"
+short user testing:"uat"
 
 find broken job:"cd $JJNL\nll -rt *"
 search for broken job:"cd $JJNL\nll -rt *"
-run production fix:"runsql / $DAT/production_fixes.sql "
+run production fix:"runsql / $DAT/production_fixes.sql 0 0 "
 run Friday script:"runsql / $DAT/Friday_production_script.sql"
 run Friday production:"runsql / $DAT/Friday_production_script.sql"
 run Friday production script:"runsql / $DAT/Friday_production_script.sql"
-insert contract:"runsql / insert_contract.sql "
+insert contract:"runsql / insert_contract_bob.sql "
+insert document:'runsql / insert_doc_trish.sql '
+output production:" > $DAT/production.txt"
+output testing:" > $DAT/output.txt"
+
 
 datacheck shared:'cd /soc/shared/res \nll -rt EML001.lst* \nll -rt CTC004.lst* \n'
 datacheck NMP:'cd /soc/nmp/res \nll -rt PRM002* \nll -rt BAL008.lst* \nll -rt BAL030.lst* \nll -rt BAL002.lst* \n'
@@ -79,4 +87,4 @@ tale:'tail '
 a impi:"NMP"
 salim:"CLM"
 barca:'BRK
-and include:"| grep -iv 
+and include:"| grep -iv "

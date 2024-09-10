@@ -157,6 +157,7 @@ cut word right: user.cut_word_right()
 pa sit: edit.paste()
 pa star: edit.paste()
 dot us: edit.paste()
+please that:edit.paste()
 (pace | paste) enter:
     edit.paste()
     key(enter)
