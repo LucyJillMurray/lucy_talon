@@ -8,7 +8,7 @@ end of time:"01-DEC-49"
 end of date time:"01-OCT-49"
 SQL print:"DBMS_OUTPUT.put_line('');"
 hacker SQL: "set serveroutput on;"
-oracle layout:"declare \nbegin \n\nend;"
+oracle layout:"declare \nbegin \n\nend;\n /"
 oracle loop:"loop \n\nend loop;"
 oracle if:"if  then \n\nend if;"
 oracle function:"create or replace function() \nis \nbegin \n\nend;"
@@ -29,7 +29,10 @@ at live:"@sad"
 SQL shared:"shared."
 audit table:"aud.aud_'
 audits table:"aud.aud_'
-select from all tab columns:"SELECT * FROM all_tab_columns where column_name ='' ;"
+tablespace table:"DBA_TABLESPACES"
+select from all tab columns:"SELECT * FROM all_tab_columns where column_name ='' AND owner LIKE'%SHARED' ;"
+trigger post live:"SELECT * FROM dba_source@sad \nwhere owner = 'SHARED' \nand name = '' \nand type = 'PACKAGE BODY'\n--and text LIKE'% %'\nAND line BETWEEN 1921 AND 1924\norder by line;"
+say me colon:";"
 
 short January:'JAN'
 short February:'FEB'

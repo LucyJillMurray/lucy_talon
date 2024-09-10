@@ -93,6 +93,7 @@ cut that: edit.cut()
 pa sit: edit.paste()
 pa star: edit.paste()
 dot us: edit.paste()
+please that:edit.paste()
 (pace | paste) enter:
     edit.paste()
     key(enter)
