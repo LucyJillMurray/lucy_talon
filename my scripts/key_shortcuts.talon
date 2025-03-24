@@ -1,4 +1,5 @@
 run query:key(f10)
+rangel:key(f10)
 query table:key(f12)
 screen brighter:key(f6)
 dunder school:key(_)
