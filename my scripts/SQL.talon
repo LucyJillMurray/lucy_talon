@@ -33,6 +33,10 @@ tablespace table:"DBA_TABLESPACES"
 select from all tab columns:"SELECT * FROM all_tab_columns where column_name ='' AND owner LIKE'%SHARED' ;"
 trigger post live:"SELECT * FROM dba_source@sad \nwhere owner = 'SHARED' \nand name = '' \nand type = 'PACKAGE BODY'\n--and text LIKE'% %'\nAND line BETWEEN 1921 AND 1924\norder by line;"
 say me colon:";"
+get fund:'obpol.get_fund(cch.policy)'
+today's state:'sysdate'
+today's date:'sysdate'
+
 
 short January:'JAN'
 short February:'FEB'

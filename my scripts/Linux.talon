@@ -64,27 +64,19 @@ test con:"$CONF"
 short you sir testing:"uat"
 short user testing:"uat"
 
-find broken job:"cd $JJNL\nll -rt *"
-search for broken job:"cd $JJNL\nll -rt *"
-run production fix:"runsql / $DAT/production_fixes.sql 0 0 "
-run Friday script:"runsql / $DAT/Friday_production_script.sql"
-run Friday production:"runsql / $DAT/Friday_production_script.sql"
-run Friday production script:"runsql / $DAT/Friday_production_script.sql"
-insert contract:"runsql / insert_contract_bob.sql "
+insert contract:"runsql / insert_contract.sql_sj "
+in certain Neptune contract:"runsql / insert_contract_Neptune.sql "
+insert Neptune contract:"runsql / insert_contract_Neptune.sql "
 insert document:'runsql / insert_doc_trish.sql '
 output production:" > $DAT/production.txt"
 output testing:" > $DAT/output.txt"
 
-
-datacheck shared:'cd /soc/shared/res \nll -rt EML001.lst* \nll -rt CTC004.lst* \n'
-datacheck NMP:'cd /soc/nmp/res \nll -rt PRM002* \nll -rt BAL008.lst* \nll -rt BAL030.lst* \nll -rt BAL002.lst* \n'
-day to check ms:"cd /soc/hms/res \nll -rt BAL008.lst* \n"
-datacheck wool true:'cd /soc/wooltru/res \nll -rt BAL001.lst* \nll -rt PRM002.lst* \n'
-datacheck everything:'cd /soc/shared/res \nll -rt EML001.lst* \nll -rt CTC004.lst* \ncd /soc/nmp/res \nll -rt PRM002* \nll -rt BAL008.lst* \nll -rt BAL030.lst* \nll -rt BAL002.lst*\ncd /soc/hms/res \nll -rt BAL008.lst* \ncd /soc/wooltru/res \nll -rt BAL001.lst* \nll -rt PRM002.lst*\n'
-select from Friday claims:'select * from ops$shared.caud_claims;'
 tail minus if:"tail -f "
 tale:'tail '
 a impi:"NMP"
 salim:"CLM"
 barca:'BRK
 and include:"| grep -iv "
+send bash journal:'echo "$DAT/send_journals FILENAME=" | at 6:00 AM Jan 25'
+send selects:'echo "$DAT/send_selects"| at 6:00 AM Jan 11'
+explain plan:"@$SQL/see_ux.sql"
