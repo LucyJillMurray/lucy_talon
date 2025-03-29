@@ -101,9 +101,6 @@ class UserActions:
     def noise_trigger_pop():
         ctrl.mouse_click(button=0, hold=16000)
 
-        if dont_click:
-            return
-
         # Otherwise respect the mouse_enable_pop_click setting
         setting_val = settings.get("user.mouse_enable_pop_click")
 
