@@ -63,16 +63,24 @@ test config:"$CONF"
 test con:"$CONF"
 short you sir testing:"uat"
 short user testing:"uat"
+test oval:"$OVL"
+live oval:"$LOVL"
 
 insert contract:"runsql / insert_contract.sql_sj "
 in certain Neptune contract:"runsql / insert_contract_Neptune.sql "
 insert Neptune contract:"runsql / insert_contract_Neptune.sql "
+delete claim:"runsql / delete_claims_tb.sql "
+insert claim:"runsql / insert_claim_trish.sql "
 insert document:'runsql / insert_doc_trish.sql '
+delete document:'runsql / delete_doc_bob.sql '
 output production:" > $DAT/production.txt"
 output testing:" > $DAT/output.txt"
 
 tail minus if:"tail -f "
 tale:'tail '
+tail:'tail '
+tale minus fine:"tail -f "
+tail minus fine:"tail -f "
 a impi:"NMP"
 salim:"CLM"
 barca:'BRK
