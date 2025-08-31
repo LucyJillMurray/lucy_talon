@@ -14,7 +14,7 @@
 		"sounds": ["q_click"],
 		"threshold": {
 			">power": 20,
-			">probability": 0.85
+			">probability": 0.9990
 		},
 		"throttle": {
 			"q_click": 0.12
