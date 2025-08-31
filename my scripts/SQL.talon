@@ -19,7 +19,7 @@ SQL no value:"NVL()"
 oracle for loop:"for i in 1..3 loop \nend loop;"
 short descending:'desc'
 select from nothing:"select  from dual;"
-do authorizations:"begin \nsp004.set_aud('SQL','772',sysdate);sp004.set_country('SA',7);end;\n/"
+do authorizations:"begin \nsp004.set_aud('SQL','772',sysdate);sp004.set_country('SA',7);\nend;\n/"
 set country:"begin \nsp004.set_aud('SQL','466',sysdate);\nsp004.set_country('SA',7);\nend;\n/"
 program use stamp timestamp:"program,userstamp,timestamp "
 check table privileges:"SELECT * FROM ALL_tab_privs WHERE table_name IN (''); \nSELECT * FROM all_synonyms WHERE table_name IN('');"
@@ -36,7 +36,9 @@ say me colon:";"
 get fund:'obpol.get_fund(cch.policy)'
 today's state:'sysdate'
 today's date:'sysdate'
-
+effector from:"eff_from"
+effective from:"eff_from"
+effective to:"eff_to"
 
 short January:'JAN'
 short February:'FEB'

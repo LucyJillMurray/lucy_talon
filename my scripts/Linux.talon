@@ -72,9 +72,11 @@ insert Neptune contract:"runsql / insert_contract_Neptune.sql "
 delete claim:"runsql / delete_claims_tb.sql "
 insert claim:"runsql / insert_claim_trish.sql "
 insert document:'runsql / insert_doc_trish.sql '
+insert my documents:'runsql / insert_doc_LM.sql '
+insert attachments:'runsql / insert_doc_LM.sql '
 delete document:'runsql / delete_doc_bob.sql '
 output production:" > $DAT/production.txt"
-output testing:" > $DAT/output.txt"
+output testing:" > ~/output.txt"
 
 tail minus if:"tail -f "
 tale:'tail '
@@ -88,3 +90,4 @@ and include:"| grep -iv "
 send bash journal:'echo "$DAT/send_journals FILENAME=" | at 6:00 AM Jan 25'
 send selects:'echo "$DAT/send_selects"| at 6:00 AM Jan 11'
 explain plan:"@$SQL/see_ux.sql"
+compile style sheet:'RUNXSLLOADER_LM_UAT SOURCE= FILE= MESSAGE=FO+BASIC EFF_FROM='
