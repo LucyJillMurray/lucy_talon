@@ -1,0 +1,15 @@
+list: user.system_paths
+hostname: KZNNOTE005
+-
+user: C:\Users\LMurray
+profile: C:\Users\LMurray
+desktop: C:\Users\LMurray\Desktop
+desk: C:\Users\LMurray\Desktop
+documents: C:\Users\LMurray\Documents
+docks: C:\Users\LMurray\Documents
+downloads: C:\Users\LMurray\Downloads
+music: C:\Users\LMurray\Music
+pictures: C:\Users\LMurray\Pictures
+videos: C:\Users\LMurray\Videos
+talon home: C:\Users\LMurray\AppData\Roaming\talon
+talon user: C:\Users\LMurray\AppData\Roaming\talon\user
