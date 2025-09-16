@@ -39,6 +39,8 @@ today's date:'sysdate'
 effector from:"eff_from"
 effective from:"eff_from"
 effective to:"eff_to"
+count stall:"count(*)"
+count star:"count(*)"
 
 short January:'JAN'
 short February:'FEB'
