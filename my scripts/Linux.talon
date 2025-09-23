@@ -65,6 +65,8 @@ short you sir testing:"uat"
 short user testing:"uat"
 test oval:"$OVL"
 live oval:"$LOVL"
+forms text:'$FMT'
+live forms text:'$LFMT'
 
 insert contract:"runsql / insert_contract.sql_sj "
 in certain Neptune contract:"runsql / insert_contract_Neptune.sql "
