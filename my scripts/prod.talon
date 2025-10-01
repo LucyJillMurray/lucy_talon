@@ -14,4 +14,5 @@ bello eight:'*** IN HMS ***\nrunsql / R021331L.sql'
 bell thirty:'*** IN NMP ***\n\nrunsql / BAL030.sql\n\nrunsql / R020000EZ.sql\n\nrunsql / BAL030.sql\n\n*** Kindly note this job may update 0 rows so no intervention is needed ***'
 bell to:"*** IN NMP ***\n\nrunsql / BAL002.sql\n\nrunsql / R020000DR.sql \"('17','47','60','30')\"\n\nrunsql / BAL002.sql\n\n*** Kindly note this job may update 0 rows so no intervention is needed ***" 
 now limit claim:"Claim assistance with null limit claim\nGood morning,\nPlease can you assist with the following null limit claims that are causing a failure:"
-select from claim:"SELECT claim_no,contract,ino,practice,policy,serv_date,dis,state,status,limit,paycode1,paycode2,	benefit_area,batch,input_id\nFROM SHARED.clm@sad WHERE claim_no=569955907;"
+select from claim:"SELECT claim_no,contract,ino,practice,policy,serv_date,dis,state,status,limit,paycode1,paycode2,benefit_area,batch,input_id\nFROM SHARED.clm@sad WHERE claim_no=569955907;"
+an impi fix:'*** IN SHARED ***\nRestart NMP238'
