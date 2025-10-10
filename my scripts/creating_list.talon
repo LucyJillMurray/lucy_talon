@@ -27,6 +27,7 @@ create hashmap:"HashSet<int> seen = new HashSet<int>();"
 see sharp:"C#"
 full array:"Array.Fill(arr, 42);"
 create dictionary:'Dictionary<string, int> ages = new Dictionary<string, int>();'
+string builder:'StringBuilder sb = new StringBuilder();'
 
 
 
