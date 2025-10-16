@@ -23,11 +23,13 @@ clothesline:')'
 oh:'0'
 create stack:"Stack<int> stack = new Stack<int>();"
 using lists:"using System.Collections.Generic;"
+using strings:"using System.Text;"
 create hashmap:"HashSet<int> seen = new HashSet<int>();"
 see sharp:"C#"
 full array:"Array.Fill(arr, 42);"
-create dictionary:'Dictionary<string, int> ages = new Dictionary<string, int>();'
+create dictionary:'Dictionary<int, string> x = new Dictionary<int, string>();'
 string builder:'StringBuilder sb = new StringBuilder();'
+create string builder:'StringBuilder sb = new StringBuilder();'
 
 
 
