@@ -15,8 +15,8 @@ diamond: < >
 curly: { }
 twin: "' '"
 quad: '" "'
-skis: ` `
-percentages: % %
+skis:   
+percentages: % space 
 pad: space space
 
 escaped quad: '\\" \\"'
