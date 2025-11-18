@@ -59,3 +59,5 @@ select from court claims:"select * from ops$shared.caud_claims;"
 trigger post live:"SELECT * FROM dba_source@sad \nwhere owner = 'SHARED' \nand name = '' \nand type = 'PACKAGE BODY'\n--and text LIKE'% %'\nAND line BETWEEN 1921 AND 1924\norder by line;"
 start query:'select * from '
 select from CGF codes:"SELECT * FROM cg_ref_codes WHERE rv_domain LIKE'%%';"
+select from email associations:'SELECT * FROM eml_ass WHERE attach_doc_no=doc_no;'
+select from documents:'SELECT * FROM udk WHERE doc_no =;'
