@@ -53,9 +53,11 @@ end of time:"01-DEC-49"
 end of date time:"01-OCT-49"
 
 select from nothing:"select  from dual;"
-select from all tab columns:"SELECT * FROM all_tab_columns where column_name =upper('') AND owner LIKE'%SHARED' ;"
+select from all tab columns:"SELECT * FROM all_tab_columns WHERE column_name LIKE Upper('') AND owner LIKE'%SHARED' ;"
 check table privileges:"SELECT * FROM ALL_tab_privs WHERE table_name IN (''); \nSELECT * FROM all_synonyms WHERE table_name IN('');"
 select from court claims:"select * from ops$shared.caud_claims;"
 trigger post live:"SELECT * FROM dba_source@sad \nwhere owner = 'SHARED' \nand name = '' \nand type = 'PACKAGE BODY'\n--and text LIKE'% %'\nAND line BETWEEN 1921 AND 1924\norder by line;"
 start query:'select * from '
-select from documents:'select * from udi where doc_no in();'
+select from CGF codes:"SELECT * FROM cg_ref_codes WHERE rv_domain LIKE'%%';"
+select from email associations:'SELECT * FROM eml_ass WHERE attach_doc_no=doc_no;'
+select from documents:'SELECT * FROM udk WHERE doc_no =;'
