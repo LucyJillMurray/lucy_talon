@@ -1,0 +1,16 @@
+list: user.system_paths
+hostname: DESKTOP-LAQG2U1
+-
+user: C:\Users\Lucy
+desktop: C:\Users\Lucy\Desktop
+desk: C:\Users\Lucy\Desktop
+documents: C:\Users\Lucy\Documents
+docks: C:\Users\Lucy\Documents
+downloads: C:\Users\Lucy\Downloads
+music: C:\Users\Lucy\Music
+pictures: C:\Users\Lucy\Pictures
+videos: C:\Users\Lucy\Videos
+talon home: C:\Users\Lucy\AppData\Roaming\talon
+talon recordings: C:\Users\Lucy\AppData\Roaming\talon\recordings
+talon user: C:\Users\Lucy\AppData\Roaming\talon\user
+profile: C:\Users\Lucy

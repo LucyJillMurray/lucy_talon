@@ -51,10 +51,10 @@ Arial,aerial
 auths,oaths
 auth,oath
 birth,berth
-bool,ball
 bool,bull
 break,brake
 builder,boulder
+buyer,bier
 check,chick
 checks,chicks
 call,coal
@@ -70,6 +70,9 @@ delete,TO Lead
 desc,descending
 diff,tiff
 dir,dear
+docs,docks
+doc,dock
+Django,jango
 done,den
 done,don
 doc,dock
@@ -79,6 +82,7 @@ echo,ecco
 end,ain't
 end if,and if
 end if;,endif
+enter,inter
 error,era
 fix job,fixed job
 for,four
@@ -94,6 +98,7 @@ graphs,grafts
 hey,hay
 heard,herd
 hello,hallo
+hello,hallow
 head,hid
 header,hitter
 Hi Ashaan,Hasan
@@ -122,11 +127,13 @@ lapse,laps
 list,lest
 list,lust
 links,lynx
+linkedin,Linton
 Linux,Lenox
 Linux,Lennox 
 loop,loup
 loop,lupe
 Max,max
+Matthew,Mathew
 min,men
 more ,more
 morning,mourning
@@ -147,10 +154,6 @@ omipay,on me pay
 omipay,on my pay
 omipay,ami pe
 omipay,army pay
-omas,amass
-omas,amas 
-omas,a mess
-omas,or mess
 omipay,amy pay
 organise,organize
 program,programme
@@ -192,13 +195,16 @@ uat,use your testing
 uat,use or testing
 uat,use our testing
 userstamp,user stamp
+user,you sir
 value,val you
+vendor,vender
 yoghurt,yoga
 you I,UI
 where,were
 will do,we'll do
 will do,well do
 will do,wilde
+while,wile
 would,wood
 wooltru,wall true
 wooltru,wool tree
@@ -207,13 +213,17 @@ wooltru,will true
 wooltru,well true
 wooltru,will threw
 
+Hagemann,Hagaman
 Theo,thio
 Nish,nesh
 Murray,marry
+Murray,mari
+Murray,Marie
 Murray,murray
 Murray,mary
 Judith,judas
 Lucy,lucy 
+Lucy,lucie
 Bruce,bruce
 Bruce,burse
 Kovania,cavani
@@ -222,11 +232,6 @@ Shivani,sherwani
 Veena,vina
 Kiaan,kon
 Alieya,elia
-Trishul,threshold 
-Trishul,trucial  
-Trishul,Tricia  
-Trishul,Trisha   
-Trishul,tracheal   
 Ashirvaad, ash 
 Kalvin,Calvin
 Bob,bob
@@ -241,5 +246,6 @@ Tanne,tana
 Tanne,tanner
 Greg,Gregg
 Linkin,Lincoln
-
+Gary,Garry
+Matt,mat
 

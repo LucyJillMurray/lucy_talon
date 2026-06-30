@@ -4,7 +4,6 @@ procedure SQL:'plSQL'
 low SQL:"sql"
 
 do authorizations:"begin \nsp004.set_aud('SQL','772',sysdate);sp004.set_country('SA',7);\nend;\n/"
-set country:"begin \nsp004.set_aud('SQL','466',sysdate);\nsp004.set_country('SA',7);\nend;\n/"
 hacker SQL: "set serveroutput on;"
 oracle layout:"declare \nbegin \n\nend;\n /"
 oracle loop:"loop \n\nend loop;"
