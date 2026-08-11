@@ -14,3 +14,4 @@ Django layout:"{% extends 'shop/base.html' %}\n{% block title %}x{% endblock %}\
 create virtual environment:'python -m venv venv'
 make requirements:'pip freeze > requirements.txt'
 create requirements:'pip freeze > requirements.txt'
+run server:"python manage.py runserver"
