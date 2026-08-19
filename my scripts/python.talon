@@ -1,7 +1,7 @@
 python else if:'elif'
 python print:'print(f"")'
 python input:'input("")'
-python for loop:"for x in range(0,10):"
+python for loop:"for i in range(0,10):"
 function comment:'"""\n\nParameters: \nReturn: \n"""' 
 short definition:"def "
 python in it:"def __init__(self,):"
@@ -15,3 +15,17 @@ create virtual environment:'python -m venv venv'
 make requirements:'pip freeze > requirements.txt'
 create requirements:'pip freeze > requirements.txt'
 run server:"python manage.py runserver"
+python set:"seen = set()"
+swap case:"s.swapcase()"
+to upper:"s.upper()"
+innumerate loop:"for i, fruit in enumerate(fruits):"
+return some:"sum(x for x in nums)"
+some word:"sum(x for x in nums)"
+join word:"word = ''.join(chars)"
+initialise array:"array = [[False] * m for _ in range(n)]"
+python index:"array.index()"
+python indices:"indices = [k for k, x in enumerate(nums) if x == needed]"
+python char array:"char_array = list(my_string)"
+create set range:"number_set = set(range(1, specific_number + 1))"
+set difference:"missing = number_set.difference(nums)"
+gauss's formula:"expected_sum = n * (n + 1) // 2"
