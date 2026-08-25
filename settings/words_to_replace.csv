@@ -25,8 +25,6 @@ Hey,Hay
 Hi, hi
 Hi,high
 Mr,mir
-OMAS,Math
-OMAS,mass
 ROWNUM,Ronan
 ROWNUM,rona
 SQL,sequel
@@ -69,6 +67,7 @@ dat,that file
 delete,to Lead
 delete,TO Lead
 desc,descending
+dev,dave
 diff,tiff
 dir,dear
 docs,docks
@@ -85,6 +84,7 @@ end if,and if
 end if;,endif
 enter,inter
 error,era
+errors,eras
 fix job,fixed job
 for,four
 forms,forums
@@ -179,6 +179,8 @@ sheet,shoot
 six,sex
 since,sense
 soc,sock
+spec,speck
+spec,spick
 tail ,tale 
 talon,tallon
 testing,tasting
